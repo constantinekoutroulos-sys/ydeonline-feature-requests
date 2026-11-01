@@ -1,0 +1,104 @@
+name: Αίτημα λειτουργίας
+description: Προτείνετε κάτι νέο ή μια βελτίωση για την εφαρμογή ΥΔΕ
+title: "[Αίτημα] "
+labels: ["νέο"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ευχαριστώ που βοηθάτε να γίνει καλύτερη η εφαρμογή. Τα αιτήματα είναι δημόσια, μη γράφετε προσωπικά στοιχεία ή στοιχεία πελατών.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Σε ποιο σημείο της εφαρμογής;
+      options:
+        - Εγκατάσταση
+        - ΥΔΕ
+        - Πρωτόκολλο
+        - Κυκλώματα / Μονογραμμικό
+        - Καταμέτρηση / Κάτοψη
+        - Εκτύπωση / PDF / DXF
+        - Λογαριασμός / Ρυθμίσεις
+        - Άλλο
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Τι σας δυσκολεύει σήμερα;
+      placeholder: Π.χ. Κάθε φορά πρέπει να βάζω μία μία τις πρίζες...
+    validations:
+      required: true
+  - type: textarea
+    id: wish
+    attributes:
+      label: Τι θα θέλατε να γίνεται;
+      placeholder: Περιγράψτε τη λειτουργία όπως τη φαντάζεστε.
+    validations:
+      required: true
+  - type: dropdown
+    id: importance
+    attributes:
+      label: Πόσο σημαντικό είναι για εσάς;
+      options:
+        - Θα ήταν ωραίο
+        - Σημαντικό
+        - Πολύ σημαντικό, το χρειάζομαι συχνά
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Κάτι ακόμα; (screenshots χωρίς προσωπικά στοιχεία)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
